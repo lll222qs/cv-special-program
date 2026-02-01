@@ -1,0 +1,37 @@
+# my global config
+global:
+  scrape_interval: 15s # 采集间隔，保持15s即可，与Grafana刷新匹配
+  evaluation_interval: 15s # 规则评估间隔，默认不变
+  # scrape_timeout is set to the global default (10s).
+
+# Alertmanager configuration
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          # - alertmanager:9093
+
+# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+rule_files:
+  # - "first_rules.yml"
+  # - "second_rules.yml"
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: "prometheus"
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+    static_configs:
+      - targets: ["localhost:9090"]
+        # The label name is added as a label `label_name=<label_value>` to any timeseries scraped from this config.
+        labels:
+          app: "prometheus"
+
+  # 新增：CV视觉告警项目指标采集配置（关键！）
+  - job_name: "cv_alert_project"  # 任务名，自定义（建议与项目相关）
+    static_configs:
+      - targets: ["localhost:8000"]  # 对应业务服务暴露的Prometheus端口
+        labels:
+          app: "cv_visual_alert_system"  # 自定义标签，方便Grafana筛选

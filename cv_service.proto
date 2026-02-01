@@ -1,0 +1,81 @@
+syntax = "proto3";
+
+package cv_service;
+
+// 帧数据消息
+message Frame {
+  bytes data = 1;
+  int32 width = 2;
+  int32 height = 3;
+  int32 channels = 4;
+}
+
+// 检测结果消息
+message Detection {
+  float x1 = 1;
+  float y1 = 2;
+  float x2 = 3;
+  float y2 = 4;
+  float confidence = 5;
+  int32 class_id = 6;
+}
+
+// 禁行区消息
+message ForbiddenArea {
+  repeated int32 rect = 1; // 禁行区坐标 [x1,y1,x2,y2]
+}
+
+// 告警规则消息
+message AlertRule {
+  repeated ForbiddenArea areas = 1; // 多个禁行区
+  float timeout = 2; // 超时时间（秒）
+}
+
+// 告警结果消息
+message AlertResult {
+  int32 track_id = 1;
+  int32 x1 = 2;
+  int32 y1 = 3;
+  int32 x2 = 4;
+  int32 y2 = 5;
+  int32 alert_type = 6; // 0-正常 1-区域告警 2-超时告警
+}
+
+// 检测服务请求
+message DetectRequest {
+  Frame frame = 1;
+  float conf_thres = 2; // 置信度阈值
+}
+
+// 检测服务响应
+message DetectResponse {
+  bool success = 1;
+  repeated Detection detections = 2;
+  Frame frame = 3;
+  string message = 4; // 已有message字段，无需修改
+}
+
+// 跟踪告警服务请求
+message TrackAlertRequest {
+  Frame frame = 1;
+  repeated Detection detections = 2;
+  AlertRule alert_rule = 3;
+}
+
+// 跟踪告警服务响应（核心修改：添加message字段）
+message TrackAlertResponse {
+  bool success = 1;
+  Frame frame = 2;
+  repeated AlertResult alerts = 3;
+  string message = 4; // 新增：和DetectResponse保持一致，用于返回成功/失败描述
+}
+
+// 检测服务定义
+service DetectService {
+  rpc Detect(DetectRequest) returns (DetectResponse);
+}
+
+// 跟踪告警服务定义
+service TrackAlertService {
+  rpc TrackAndAlert(TrackAlertRequest) returns (TrackAlertResponse);
+}

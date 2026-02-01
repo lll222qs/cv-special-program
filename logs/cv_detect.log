@@ -1,0 +1,1316 @@
+2026-01-29 20:23:58,577 - INFO - detect_producer - ✅ Kafka生产者初始化成功 | 服务器：127.0.0.1:9092
+2026-01-29 20:23:58,691 - INFO - detect_producer - ✅ 原项目YOLOv9模型加载成功 | 路径：D:\C language_2\cv_project\three_week1\yolov9c.pt
+2026-01-29 20:23:58,717 - INFO - detect_producer - ✅ 姿态模型YOLOv8n-pose加载成功
+2026-01-29 20:23:59,037 - INFO - detect_producer - ✅ 原项目DeepSORT跟踪器初始化成功
+2026-01-29 20:23:59,039 - INFO - detect_producer - ✅ Kafka生产者初始化成功 | 服务器：127.0.0.1:9092
+2026-01-29 20:23:59,111 - INFO - detect_producer - 📹 视频加载成功 | 路径：test.mp4
+2026-01-29 20:23:59,112 - INFO - detect_producer - 📊 视频信息 | 帧率：25 | 总帧数：175 | 分辨率：640x360
+2026-01-29 20:23:59,112 - INFO - detect_producer - =======================================
+2026-01-29 20:23:59,571 - INFO - detect_producer - 📨 帧0 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:23:59,895 - INFO - detect_producer - 📨 帧1 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:24:00,184 - INFO - detect_producer - 📨 帧2 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:00,468 - INFO - detect_producer - 📨 帧3 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:00,771 - INFO - detect_producer - 📨 帧4 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:01,058 - INFO - detect_producer - 📨 帧5 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:01,316 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 365, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:24:01,318 - INFO - detect_producer - 📨 帧6 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:24:01,601 - INFO - detect_producer - 📨 帧7 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:01,895 - INFO - detect_producer - 📨 帧8 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:02,173 - INFO - detect_producer - 📨 帧9 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:02,456 - INFO - detect_producer - 📨 帧10 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:02,737 - INFO - detect_producer - 📨 帧11 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:03,024 - INFO - detect_producer - 📨 帧12 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:03,314 - INFO - detect_producer - 📨 帧13 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:03,609 - INFO - detect_producer - 📨 帧14 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:03,890 - INFO - detect_producer - 📨 帧15 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:04,174 - INFO - detect_producer - 📨 帧16 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:04,467 - INFO - detect_producer - 📨 帧17 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:04,752 - INFO - detect_producer - 📨 帧18 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:05,033 - INFO - detect_producer - 📨 帧19 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:05,316 - INFO - detect_producer - 📨 帧20 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:05,610 - INFO - detect_producer - 📨 帧21 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:05,904 - INFO - detect_producer - 📨 帧22 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:06,181 - INFO - detect_producer - 📨 帧23 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:06,467 - INFO - detect_producer - 📨 帧24 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:06,745 - INFO - detect_producer - 📨 帧25 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:07,025 - INFO - detect_producer - 📨 帧26 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:07,304 - INFO - detect_producer - 📨 帧27 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:07,586 - INFO - detect_producer - 📨 帧28 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:07,871 - INFO - detect_producer - 📨 帧29 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:08,166 - INFO - detect_producer - 📨 帧30 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:08,424 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 365, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:24:08,426 - INFO - detect_producer - 📨 帧31 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:24:08,710 - INFO - detect_producer - 📨 帧32 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:08,990 - INFO - detect_producer - 📨 帧33 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:09,273 - INFO - detect_producer - 📨 帧34 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:09,560 - INFO - detect_producer - 📨 帧35 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:09,853 - INFO - detect_producer - 📨 帧36 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:10,146 - INFO - detect_producer - 📨 帧37 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:10,454 - INFO - detect_producer - 📨 帧38 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:24:10,528 - INFO - detect_producer - 🧹 正在清理资源...
+2026-01-29 20:28:29,107 - INFO - detect_producer - ✅ Kafka生产者初始化成功 | 服务器：127.0.0.1:9092
+2026-01-29 20:28:29,194 - INFO - detect_producer - ✅ 原项目YOLOv9模型加载成功 | 路径：D:\C language_2\cv_project\three_week1\yolov9c.pt
+2026-01-29 20:28:29,219 - INFO - detect_producer - ✅ 姿态模型YOLOv8n-pose加载成功
+2026-01-29 20:28:29,523 - INFO - detect_producer - ✅ 原项目DeepSORT跟踪器初始化成功
+2026-01-29 20:28:29,524 - INFO - detect_producer - ✅ Kafka生产者初始化成功 | 服务器：127.0.0.1:9092
+2026-01-29 20:28:29,587 - INFO - detect_producer - 📹 视频加载成功 | 路径：test.mp4
+2026-01-29 20:28:29,587 - INFO - detect_producer - 📊 视频信息 | 帧率：25 | 总帧数：175 | 分辨率：640x360
+2026-01-29 20:28:29,588 - INFO - detect_producer - =======================================
+2026-01-29 20:28:30,026 - INFO - detect_producer - 📨 帧0 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:30,379 - INFO - detect_producer - 📨 帧1 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:30,664 - INFO - detect_producer - 📨 帧2 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:30,954 - INFO - detect_producer - 📨 帧3 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:31,266 - INFO - detect_producer - 📨 帧4 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:31,546 - INFO - detect_producer - 📨 帧5 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:31,800 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:31,801 - INFO - detect_producer - 📨 帧6 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:32,096 - INFO - detect_producer - 📨 帧7 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:32,390 - INFO - detect_producer - 📨 帧8 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:32,686 - INFO - detect_producer - 📨 帧9 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:32,977 - INFO - detect_producer - 📨 帧10 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:33,256 - INFO - detect_producer - 📨 帧11 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:33,540 - INFO - detect_producer - 📨 帧12 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:33,832 - INFO - detect_producer - 📨 帧13 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:34,110 - INFO - detect_producer - 📨 帧14 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:34,394 - INFO - detect_producer - 📨 帧15 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:34,684 - INFO - detect_producer - 📨 帧16 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:34,964 - INFO - detect_producer - 📨 帧17 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:35,244 - INFO - detect_producer - 📨 帧18 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:35,524 - INFO - detect_producer - 📨 帧19 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:35,821 - INFO - detect_producer - 📨 帧20 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:36,121 - INFO - detect_producer - 📨 帧21 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:36,412 - INFO - detect_producer - 📨 帧22 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:36,711 - INFO - detect_producer - 📨 帧23 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:37,017 - INFO - detect_producer - 📨 帧24 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:37,310 - INFO - detect_producer - 📨 帧25 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:37,591 - INFO - detect_producer - 📨 帧26 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:37,884 - INFO - detect_producer - 📨 帧27 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:38,167 - INFO - detect_producer - 📨 帧28 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:38,461 - INFO - detect_producer - 📨 帧29 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:38,756 - INFO - detect_producer - 📨 帧30 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:39,014 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:39,016 - INFO - detect_producer - 📨 帧31 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:39,311 - INFO - detect_producer - 📨 帧32 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:39,607 - INFO - detect_producer - 📨 帧33 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:39,903 - INFO - detect_producer - 📨 帧34 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:40,196 - INFO - detect_producer - 📨 帧35 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:40,493 - INFO - detect_producer - 📨 帧36 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:40,789 - INFO - detect_producer - 📨 帧37 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:41,083 - INFO - detect_producer - 📨 帧38 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:41,377 - INFO - detect_producer - 📨 帧39 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:41,673 - INFO - detect_producer - 📨 帧40 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:41,957 - INFO - detect_producer - 📨 帧41 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:42,249 - INFO - detect_producer - 📨 帧42 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:42,530 - INFO - detect_producer - 📨 帧43 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:42,835 - INFO - detect_producer - 📨 帧44 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:43,123 - INFO - detect_producer - 📨 帧45 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:43,413 - INFO - detect_producer - 📨 帧46 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:43,697 - INFO - detect_producer - 📨 帧47 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:43,981 - INFO - detect_producer - 📨 帧48 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:44,281 - INFO - detect_producer - 📨 帧49 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:44,570 - INFO - detect_producer - 📨 帧50 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:44,849 - INFO - detect_producer - 📨 帧51 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:45,130 - INFO - detect_producer - 📨 帧52 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:45,417 - INFO - detect_producer - 📨 帧53 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:45,705 - INFO - detect_producer - 📨 帧54 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:45,953 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:45,955 - INFO - detect_producer - 📨 帧55 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:46,243 - INFO - detect_producer - 📨 帧56 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:46,501 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:46,502 - INFO - detect_producer - 📨 帧57 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:46,799 - INFO - detect_producer - 📨 帧58 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:47,095 - INFO - detect_producer - 📨 帧59 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:47,396 - INFO - detect_producer - 📨 帧60 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:47,649 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:47,651 - INFO - detect_producer - 📨 帧61 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:47,947 - INFO - detect_producer - 📨 帧62 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:48,194 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:48,195 - INFO - detect_producer - 📨 帧63 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:48,444 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:48,445 - INFO - detect_producer - 📨 帧64 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:48,693 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:48,695 - INFO - detect_producer - 📨 帧65 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:48,945 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:48,947 - INFO - detect_producer - 📨 帧66 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:49,249 - INFO - detect_producer - 📨 帧67 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:49,540 - INFO - detect_producer - 📨 帧68 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:49,832 - INFO - detect_producer - 📨 帧69 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:50,095 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:50,097 - INFO - detect_producer - 📨 帧70 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:50,354 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:50,356 - INFO - detect_producer - 📨 帧71 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:50,642 - INFO - detect_producer - 📨 帧72 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:50,901 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:50,902 - INFO - detect_producer - 📨 帧73 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:51,151 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:51,153 - INFO - detect_producer - 📨 帧74 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:51,450 - INFO - detect_producer - 📨 帧75 | 跟踪数：5 | 告警数：4 | Kafka消息发送成功
+2026-01-29 20:28:51,709 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:51,711 - INFO - detect_producer - 📨 帧76 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:52,009 - INFO - detect_producer - 📨 帧77 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:28:52,288 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:52,289 - INFO - detect_producer - 📨 帧78 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:52,546 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:52,548 - INFO - detect_producer - 📨 帧79 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:52,802 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:52,804 - INFO - detect_producer - 📨 帧80 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:53,063 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:53,065 - INFO - detect_producer - 📨 帧81 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:53,363 - INFO - detect_producer - 📨 帧82 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:28:53,675 - INFO - detect_producer - 📨 帧83 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:28:53,987 - INFO - detect_producer - 📨 帧84 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:28:54,261 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:54,263 - INFO - detect_producer - 📨 帧85 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:54,556 - INFO - detect_producer - 📨 帧86 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:28:54,822 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:54,824 - INFO - detect_producer - 📨 帧87 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:55,144 - INFO - detect_producer - 📨 帧88 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:28:55,390 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:55,392 - INFO - detect_producer - 📨 帧89 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:55,680 - INFO - detect_producer - 📨 帧90 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:28:55,946 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:55,948 - INFO - detect_producer - 📨 帧91 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:56,210 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:56,211 - INFO - detect_producer - 📨 帧92 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:56,508 - INFO - detect_producer - 📨 帧93 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:28:56,802 - INFO - detect_producer - 📨 帧94 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:28:57,088 - INFO - detect_producer - 📨 帧95 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:28:57,342 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:57,343 - INFO - detect_producer - 📨 帧96 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:57,597 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:57,598 - INFO - detect_producer - 📨 帧97 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:57,897 - INFO - detect_producer - 📨 帧98 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:28:58,158 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:58,160 - INFO - detect_producer - 📨 帧99 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:58,421 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:58,423 - INFO - detect_producer - 📨 帧100 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:58,672 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:58,673 - INFO - detect_producer - 📨 帧101 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:58,929 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:58,931 - INFO - detect_producer - 📨 帧102 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:59,183 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:59,185 - INFO - detect_producer - 📨 帧103 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:59,432 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:59,434 - INFO - detect_producer - 📨 帧104 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:28:59,683 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:28:59,685 - INFO - detect_producer - 📨 帧105 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:00,030 - INFO - detect_producer - 📨 帧106 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:00,293 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:00,294 - INFO - detect_producer - 📨 帧107 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:00,557 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:00,559 - INFO - detect_producer - 📨 帧108 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:00,819 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:00,820 - INFO - detect_producer - 📨 帧109 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:01,114 - INFO - detect_producer - 📨 帧110 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:01,381 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:01,383 - INFO - detect_producer - 📨 帧111 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:01,634 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:01,636 - INFO - detect_producer - 📨 帧112 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:01,906 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:01,907 - INFO - detect_producer - 📨 帧113 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:02,157 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:02,159 - INFO - detect_producer - 📨 帧114 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:02,418 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:02,420 - INFO - detect_producer - 📨 帧115 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:02,685 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:02,687 - INFO - detect_producer - 📨 帧116 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:02,963 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:02,965 - INFO - detect_producer - 📨 帧117 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:03,231 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:03,233 - INFO - detect_producer - 📨 帧118 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:03,498 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:03,500 - INFO - detect_producer - 📨 帧119 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:03,759 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:03,760 - INFO - detect_producer - 📨 帧120 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:04,013 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:04,015 - INFO - detect_producer - 📨 帧121 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:04,262 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:04,264 - INFO - detect_producer - 📨 帧122 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:04,523 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:04,525 - INFO - detect_producer - 📨 帧123 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:04,790 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:04,792 - INFO - detect_producer - 📨 帧124 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:05,047 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:05,049 - INFO - detect_producer - 📨 帧125 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:05,343 - INFO - detect_producer - 📨 帧126 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:05,637 - INFO - detect_producer - 📨 帧127 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:05,932 - INFO - detect_producer - 📨 帧128 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:06,197 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:06,198 - INFO - detect_producer - 📨 帧129 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:06,494 - INFO - detect_producer - 📨 帧130 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:06,793 - INFO - detect_producer - 📨 帧131 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:07,088 - INFO - detect_producer - 📨 帧132 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:07,353 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:07,355 - INFO - detect_producer - 📨 帧133 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:07,613 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:07,614 - INFO - detect_producer - 📨 帧134 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:07,879 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:07,881 - INFO - detect_producer - 📨 帧135 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:08,144 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:08,146 - INFO - detect_producer - 📨 帧136 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:08,443 - INFO - detect_producer - 📨 帧137 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:08,696 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:08,698 - INFO - detect_producer - 📨 帧138 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:08,988 - INFO - detect_producer - 📨 帧139 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:09,252 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:09,254 - INFO - detect_producer - 📨 帧140 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:09,504 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:09,506 - INFO - detect_producer - 📨 帧141 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:09,748 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:09,749 - INFO - detect_producer - 📨 帧142 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:10,043 - INFO - detect_producer - 📨 帧143 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:10,301 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:10,302 - INFO - detect_producer - 📨 帧144 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:10,568 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:10,570 - INFO - detect_producer - 📨 帧145 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:10,831 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:10,833 - INFO - detect_producer - 📨 帧146 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:11,084 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:11,085 - INFO - detect_producer - 📨 帧147 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:11,348 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:11,349 - INFO - detect_producer - 📨 帧148 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:11,635 - INFO - detect_producer - 📨 帧149 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:11,896 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:11,897 - INFO - detect_producer - 📨 帧150 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:12,198 - INFO - detect_producer - 📨 帧151 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:12,451 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:12,453 - INFO - detect_producer - 📨 帧152 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:12,694 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:12,696 - INFO - detect_producer - 📨 帧153 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:12,948 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:12,950 - INFO - detect_producer - 📨 帧154 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:13,197 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:13,199 - INFO - detect_producer - 📨 帧155 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:13,460 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:13,462 - INFO - detect_producer - 📨 帧156 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:13,754 - INFO - detect_producer - 📨 帧157 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:14,046 - INFO - detect_producer - 📨 帧158 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:14,344 - INFO - detect_producer - 📨 帧159 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:14,633 - INFO - detect_producer - 📨 帧160 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:14,931 - INFO - detect_producer - 📨 帧161 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:15,230 - INFO - detect_producer - 📨 帧162 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:15,550 - INFO - detect_producer - 📨 帧163 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:15,869 - INFO - detect_producer - 📨 帧164 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:16,198 - INFO - detect_producer - 📨 帧165 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:16,523 - INFO - detect_producer - 📨 帧166 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:16,848 - INFO - detect_producer - 📨 帧167 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:17,167 - INFO - detect_producer - 📨 帧168 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:17,458 - INFO - detect_producer - 📨 帧169 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:17,754 - INFO - detect_producer - 📨 帧170 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:18,050 - INFO - detect_producer - 📨 帧171 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:18,342 - INFO - detect_producer - 📨 帧172 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:18,640 - INFO - detect_producer - 📨 帧173 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:18,935 - INFO - detect_producer - 📨 帧174 | 跟踪数：5 | 告警数：5 | Kafka消息发送成功
+2026-01-29 20:29:18,988 - WARNING - detect_producer - 🔴 帧读取失败/视频播放完毕，尝试重连...
+2026-01-29 20:29:18,997 - INFO - detect_producer - ✅ 视频流重连成功（重试1次）
+2026-01-29 20:29:19,221 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:19,223 - INFO - detect_producer - 📨 帧175 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:19,486 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:19,488 - INFO - detect_producer - 📨 帧176 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:19,753 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:19,754 - INFO - detect_producer - 📨 帧177 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:20,020 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:20,022 - INFO - detect_producer - 📨 帧178 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:20,285 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:20,288 - INFO - detect_producer - 📨 帧179 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:20,555 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:20,558 - INFO - detect_producer - 📨 帧180 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:20,828 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:20,829 - INFO - detect_producer - 📨 帧181 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:21,108 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 361, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:29:21,109 - INFO - detect_producer - 📨 帧182 | 跟踪数：0 | 告警数：0 | Kafka消息发送成功
+2026-01-29 20:29:21,316 - INFO - detect_producer - 🧹 正在清理资源...
+2026-01-29 20:29:21,325 - INFO - detect_producer - ✅ 资源清理完成 | 视频流+窗口+Kafka+Redis+计时数据 全部释放
+2026-01-29 20:45:24,667 - INFO - detect_producer - ✅ 告警截图目录创建成功 | 路径：alert_screenshots
+2026-01-29 20:45:24,668 - INFO - detect_producer - ✅ Kafka生产者初始化成功 | 服务器：127.0.0.1:9092
+2026-01-29 20:45:24,668 - INFO - detect_producer - ✅ Kafka生产者初始化成功 | 服务器：127.0.0.1:9092
+2026-01-29 20:45:24,770 - INFO - detect_producer - ✅ 原项目YOLOv9模型加载成功 | 路径：D:\C language_2\cv_project\three_week1\yolov9c.pt
+2026-01-29 20:45:24,770 - INFO - detect_producer - ✅ 原项目YOLOv9模型加载成功 | 路径：D:\C language_2\cv_project\three_week1\yolov9c.pt
+2026-01-29 20:45:24,796 - INFO - detect_producer - ✅ 姿态模型YOLOv8n-pose加载成功
+2026-01-29 20:45:24,796 - INFO - detect_producer - ✅ 姿态模型YOLOv8n-pose加载成功
+2026-01-29 20:45:25,128 - INFO - detect_producer - ✅ 原项目DeepSORT跟踪器初始化成功
+2026-01-29 20:45:25,128 - INFO - detect_producer - ✅ 原项目DeepSORT跟踪器初始化成功
+2026-01-29 20:45:25,129 - INFO - detect_producer - ✅ Kafka生产者初始化成功 | 服务器：127.0.0.1:9092
+2026-01-29 20:45:25,129 - INFO - detect_producer - ✅ Kafka生产者初始化成功 | 服务器：127.0.0.1:9092
+2026-01-29 20:45:25,195 - INFO - detect_producer - 📹 视频加载成功 | 路径：test.mp4
+2026-01-29 20:45:25,195 - INFO - detect_producer - 📹 视频加载成功 | 路径：test.mp4
+2026-01-29 20:45:25,196 - INFO - detect_producer - 📊 视频信息 | 帧率：25 | 总帧数：175 | 分辨率：640x360
+2026-01-29 20:45:25,196 - INFO - detect_producer - 📊 视频信息 | 帧率：25 | 总帧数：175 | 分辨率：640x360
+2026-01-29 20:45:25,196 - INFO - detect_producer - =======================================
+2026-01-29 20:45:25,196 - INFO - detect_producer - =======================================
+2026-01-29 20:45:25,201 - INFO - detect_producer - ✅ 标注视频写入器初始化成功 | 保存路径：output_detect.mp4
+2026-01-29 20:45:25,201 - INFO - detect_producer - ✅ 标注视频写入器初始化成功 | 保存路径：output_detect.mp4
+2026-01-29 20:45:27,466 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:27,466 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:34,866 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:34,866 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:36,388 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID2_TIMEOUT10.1s.png
+2026-01-29 20:45:36,388 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID2_TIMEOUT10.1s.png
+2026-01-29 20:45:36,396 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID3_TIMEOUT10.1s.png
+2026-01-29 20:45:36,396 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID3_TIMEOUT10.1s.png
+2026-01-29 20:45:36,402 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID4_TIMEOUT10.1s.png
+2026-01-29 20:45:36,402 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID4_TIMEOUT10.1s.png
+2026-01-29 20:45:36,409 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID5_TIMEOUT10.1s.png
+2026-01-29 20:45:36,409 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID5_TIMEOUT10.1s.png
+2026-01-29 20:45:36,708 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID2_TIMEOUT10.4s.png
+2026-01-29 20:45:36,708 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID2_TIMEOUT10.4s.png
+2026-01-29 20:45:36,714 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID3_TIMEOUT10.4s.png
+2026-01-29 20:45:36,714 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID3_TIMEOUT10.4s.png
+2026-01-29 20:45:36,721 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID4_TIMEOUT10.4s.png
+2026-01-29 20:45:36,721 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID4_TIMEOUT10.4s.png
+2026-01-29 20:45:36,729 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID5_TIMEOUT10.5s.png
+2026-01-29 20:45:36,729 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204536_ID5_TIMEOUT10.5s.png
+2026-01-29 20:45:37,037 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID2_TIMEOUT10.8s.png
+2026-01-29 20:45:37,037 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID2_TIMEOUT10.8s.png
+2026-01-29 20:45:37,043 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID3_TIMEOUT10.8s.png
+2026-01-29 20:45:37,043 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID3_TIMEOUT10.8s.png
+2026-01-29 20:45:37,050 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID4_TIMEOUT10.8s.png
+2026-01-29 20:45:37,050 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID4_TIMEOUT10.8s.png
+2026-01-29 20:45:37,056 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID5_TIMEOUT10.8s.png
+2026-01-29 20:45:37,056 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID5_TIMEOUT10.8s.png
+2026-01-29 20:45:37,361 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID2_TIMEOUT11.1s.png
+2026-01-29 20:45:37,361 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID2_TIMEOUT11.1s.png
+2026-01-29 20:45:37,368 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID3_TIMEOUT11.1s.png
+2026-01-29 20:45:37,368 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID3_TIMEOUT11.1s.png
+2026-01-29 20:45:37,375 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID4_TIMEOUT11.1s.png
+2026-01-29 20:45:37,375 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID4_TIMEOUT11.1s.png
+2026-01-29 20:45:37,381 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID5_TIMEOUT11.1s.png
+2026-01-29 20:45:37,381 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID5_TIMEOUT11.1s.png
+2026-01-29 20:45:37,704 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID2_TIMEOUT11.4s.png
+2026-01-29 20:45:37,704 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID2_TIMEOUT11.4s.png
+2026-01-29 20:45:37,711 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID3_TIMEOUT11.4s.png
+2026-01-29 20:45:37,711 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID3_TIMEOUT11.4s.png
+2026-01-29 20:45:37,719 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID4_TIMEOUT11.4s.png
+2026-01-29 20:45:37,719 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID4_TIMEOUT11.4s.png
+2026-01-29 20:45:37,725 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID5_TIMEOUT11.5s.png
+2026-01-29 20:45:37,725 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204537_ID5_TIMEOUT11.5s.png
+2026-01-29 20:45:38,033 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID2_TIMEOUT11.8s.png
+2026-01-29 20:45:38,033 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID2_TIMEOUT11.8s.png
+2026-01-29 20:45:38,040 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID3_TIMEOUT11.8s.png
+2026-01-29 20:45:38,040 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID3_TIMEOUT11.8s.png
+2026-01-29 20:45:38,048 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID4_TIMEOUT11.8s.png
+2026-01-29 20:45:38,048 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID4_TIMEOUT11.8s.png
+2026-01-29 20:45:38,054 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID5_TIMEOUT11.8s.png
+2026-01-29 20:45:38,054 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID5_TIMEOUT11.8s.png
+2026-01-29 20:45:38,356 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID2_TIMEOUT12.1s.png
+2026-01-29 20:45:38,356 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID2_TIMEOUT12.1s.png
+2026-01-29 20:45:38,362 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID3_TIMEOUT12.1s.png
+2026-01-29 20:45:38,362 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID3_TIMEOUT12.1s.png
+2026-01-29 20:45:38,368 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID4_TIMEOUT12.1s.png
+2026-01-29 20:45:38,368 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID4_TIMEOUT12.1s.png
+2026-01-29 20:45:38,376 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID5_TIMEOUT12.1s.png
+2026-01-29 20:45:38,376 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID5_TIMEOUT12.1s.png
+2026-01-29 20:45:38,683 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID2_TIMEOUT12.4s.png
+2026-01-29 20:45:38,683 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID2_TIMEOUT12.4s.png
+2026-01-29 20:45:38,690 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID3_TIMEOUT12.4s.png
+2026-01-29 20:45:38,690 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID3_TIMEOUT12.4s.png
+2026-01-29 20:45:38,697 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID4_TIMEOUT12.4s.png
+2026-01-29 20:45:38,697 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID4_TIMEOUT12.4s.png
+2026-01-29 20:45:38,705 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID5_TIMEOUT12.4s.png
+2026-01-29 20:45:38,705 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID5_TIMEOUT12.4s.png
+2026-01-29 20:45:39,005 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID2_TIMEOUT12.7s.png
+2026-01-29 20:45:39,005 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID2_TIMEOUT12.7s.png
+2026-01-29 20:45:39,012 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID3_TIMEOUT12.7s.png
+2026-01-29 20:45:39,012 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID3_TIMEOUT12.7s.png
+2026-01-29 20:45:39,019 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID4_TIMEOUT12.7s.png
+2026-01-29 20:45:39,019 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID4_TIMEOUT12.7s.png
+2026-01-29 20:45:39,025 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID5_TIMEOUT12.8s.png
+2026-01-29 20:45:39,025 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204538_ID5_TIMEOUT12.8s.png
+2026-01-29 20:45:39,331 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID2_TIMEOUT13.1s.png
+2026-01-29 20:45:39,331 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID2_TIMEOUT13.1s.png
+2026-01-29 20:45:39,338 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID3_TIMEOUT13.1s.png
+2026-01-29 20:45:39,338 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID3_TIMEOUT13.1s.png
+2026-01-29 20:45:39,346 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID4_TIMEOUT13.1s.png
+2026-01-29 20:45:39,346 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID4_TIMEOUT13.1s.png
+2026-01-29 20:45:39,353 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID5_TIMEOUT13.1s.png
+2026-01-29 20:45:39,353 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID5_TIMEOUT13.1s.png
+2026-01-29 20:45:39,679 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID2_TIMEOUT13.4s.png
+2026-01-29 20:45:39,679 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID2_TIMEOUT13.4s.png
+2026-01-29 20:45:39,685 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID3_TIMEOUT13.4s.png
+2026-01-29 20:45:39,685 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID3_TIMEOUT13.4s.png
+2026-01-29 20:45:39,692 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID4_TIMEOUT13.4s.png
+2026-01-29 20:45:39,692 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID4_TIMEOUT13.4s.png
+2026-01-29 20:45:39,699 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID5_TIMEOUT13.4s.png
+2026-01-29 20:45:39,699 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204539_ID5_TIMEOUT13.4s.png
+2026-01-29 20:45:40,019 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID2_TIMEOUT13.7s.png
+2026-01-29 20:45:40,019 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID2_TIMEOUT13.7s.png
+2026-01-29 20:45:40,026 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID3_TIMEOUT13.8s.png
+2026-01-29 20:45:40,026 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID3_TIMEOUT13.8s.png
+2026-01-29 20:45:40,033 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID4_TIMEOUT13.8s.png
+2026-01-29 20:45:40,033 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID4_TIMEOUT13.8s.png
+2026-01-29 20:45:40,040 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID5_TIMEOUT13.8s.png
+2026-01-29 20:45:40,040 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID5_TIMEOUT13.8s.png
+2026-01-29 20:45:40,339 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID2_TIMEOUT14.1s.png
+2026-01-29 20:45:40,339 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID2_TIMEOUT14.1s.png
+2026-01-29 20:45:40,346 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID3_TIMEOUT14.1s.png
+2026-01-29 20:45:40,346 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID3_TIMEOUT14.1s.png
+2026-01-29 20:45:40,352 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID4_TIMEOUT14.1s.png
+2026-01-29 20:45:40,352 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID4_TIMEOUT14.1s.png
+2026-01-29 20:45:40,359 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID5_TIMEOUT14.1s.png
+2026-01-29 20:45:40,359 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID5_TIMEOUT14.1s.png
+2026-01-29 20:45:40,667 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID2_TIMEOUT14.4s.png
+2026-01-29 20:45:40,667 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID2_TIMEOUT14.4s.png
+2026-01-29 20:45:40,674 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID3_TIMEOUT14.4s.png
+2026-01-29 20:45:40,674 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID3_TIMEOUT14.4s.png
+2026-01-29 20:45:40,681 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID4_TIMEOUT14.4s.png
+2026-01-29 20:45:40,681 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID4_TIMEOUT14.4s.png
+2026-01-29 20:45:40,687 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID5_TIMEOUT14.4s.png
+2026-01-29 20:45:40,687 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID5_TIMEOUT14.4s.png
+2026-01-29 20:45:40,988 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID2_TIMEOUT14.7s.png
+2026-01-29 20:45:40,988 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID2_TIMEOUT14.7s.png
+2026-01-29 20:45:40,996 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID3_TIMEOUT14.7s.png
+2026-01-29 20:45:40,996 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID3_TIMEOUT14.7s.png
+2026-01-29 20:45:41,002 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID4_TIMEOUT14.7s.png
+2026-01-29 20:45:41,002 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID4_TIMEOUT14.7s.png
+2026-01-29 20:45:41,009 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID5_TIMEOUT14.7s.png
+2026-01-29 20:45:41,009 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204540_ID5_TIMEOUT14.7s.png
+2026-01-29 20:45:41,316 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID2_TIMEOUT15.0s.png
+2026-01-29 20:45:41,316 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID2_TIMEOUT15.0s.png
+2026-01-29 20:45:41,324 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID3_TIMEOUT15.1s.png
+2026-01-29 20:45:41,324 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID3_TIMEOUT15.1s.png
+2026-01-29 20:45:41,329 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID4_TIMEOUT15.1s.png
+2026-01-29 20:45:41,329 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID4_TIMEOUT15.1s.png
+2026-01-29 20:45:41,338 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID5_TIMEOUT15.1s.png
+2026-01-29 20:45:41,338 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID5_TIMEOUT15.1s.png
+2026-01-29 20:45:41,646 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID2_TIMEOUT15.4s.png
+2026-01-29 20:45:41,646 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID2_TIMEOUT15.4s.png
+2026-01-29 20:45:41,653 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID3_TIMEOUT15.4s.png
+2026-01-29 20:45:41,653 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID3_TIMEOUT15.4s.png
+2026-01-29 20:45:41,659 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID4_TIMEOUT15.4s.png
+2026-01-29 20:45:41,659 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID4_TIMEOUT15.4s.png
+2026-01-29 20:45:41,666 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID5_TIMEOUT15.4s.png
+2026-01-29 20:45:41,666 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID5_TIMEOUT15.4s.png
+2026-01-29 20:45:41,973 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID2_TIMEOUT15.7s.png
+2026-01-29 20:45:41,973 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID2_TIMEOUT15.7s.png
+2026-01-29 20:45:41,980 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID3_TIMEOUT15.7s.png
+2026-01-29 20:45:41,980 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID3_TIMEOUT15.7s.png
+2026-01-29 20:45:41,988 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID4_TIMEOUT15.7s.png
+2026-01-29 20:45:41,988 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID4_TIMEOUT15.7s.png
+2026-01-29 20:45:41,994 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID5_TIMEOUT15.7s.png
+2026-01-29 20:45:41,994 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204541_ID5_TIMEOUT15.7s.png
+2026-01-29 20:45:42,291 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID2_TIMEOUT16.0s.png
+2026-01-29 20:45:42,291 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID2_TIMEOUT16.0s.png
+2026-01-29 20:45:42,298 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID3_TIMEOUT16.0s.png
+2026-01-29 20:45:42,298 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID3_TIMEOUT16.0s.png
+2026-01-29 20:45:42,305 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID4_TIMEOUT16.0s.png
+2026-01-29 20:45:42,305 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID4_TIMEOUT16.0s.png
+2026-01-29 20:45:42,311 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID5_TIMEOUT16.0s.png
+2026-01-29 20:45:42,311 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID5_TIMEOUT16.0s.png
+2026-01-29 20:45:42,614 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:42,614 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:42,926 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID2_TIMEOUT16.7s.png
+2026-01-29 20:45:42,926 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID2_TIMEOUT16.7s.png
+2026-01-29 20:45:42,934 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID3_TIMEOUT16.7s.png
+2026-01-29 20:45:42,934 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID3_TIMEOUT16.7s.png
+2026-01-29 20:45:42,942 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID4_TIMEOUT16.7s.png
+2026-01-29 20:45:42,942 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID4_TIMEOUT16.7s.png
+2026-01-29 20:45:42,951 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID5_TIMEOUT16.7s.png
+2026-01-29 20:45:42,951 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204542_ID5_TIMEOUT16.7s.png
+2026-01-29 20:45:43,216 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:43,216 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:43,534 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID2_TIMEOUT17.3s.png
+2026-01-29 20:45:43,534 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID2_TIMEOUT17.3s.png
+2026-01-29 20:45:43,540 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID3_TIMEOUT17.3s.png
+2026-01-29 20:45:43,540 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID3_TIMEOUT17.3s.png
+2026-01-29 20:45:43,547 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID4_TIMEOUT17.3s.png
+2026-01-29 20:45:43,547 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID4_TIMEOUT17.3s.png
+2026-01-29 20:45:43,555 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID5_TIMEOUT17.3s.png
+2026-01-29 20:45:43,555 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID5_TIMEOUT17.3s.png
+2026-01-29 20:45:43,853 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID2_TIMEOUT17.6s.png
+2026-01-29 20:45:43,853 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID2_TIMEOUT17.6s.png
+2026-01-29 20:45:43,860 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID3_TIMEOUT17.6s.png
+2026-01-29 20:45:43,860 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID3_TIMEOUT17.6s.png
+2026-01-29 20:45:43,867 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID4_TIMEOUT17.6s.png
+2026-01-29 20:45:43,867 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID4_TIMEOUT17.6s.png
+2026-01-29 20:45:43,874 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID5_TIMEOUT17.6s.png
+2026-01-29 20:45:43,874 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204543_ID5_TIMEOUT17.6s.png
+2026-01-29 20:45:44,191 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID2_TIMEOUT17.9s.png
+2026-01-29 20:45:44,191 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID2_TIMEOUT17.9s.png
+2026-01-29 20:45:44,198 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID3_TIMEOUT17.9s.png
+2026-01-29 20:45:44,198 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID3_TIMEOUT17.9s.png
+2026-01-29 20:45:44,205 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID4_TIMEOUT17.9s.png
+2026-01-29 20:45:44,205 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID4_TIMEOUT17.9s.png
+2026-01-29 20:45:44,211 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID5_TIMEOUT17.9s.png
+2026-01-29 20:45:44,211 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID5_TIMEOUT17.9s.png
+2026-01-29 20:45:44,466 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:44,466 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:44,777 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID2_TIMEOUT18.5s.png
+2026-01-29 20:45:44,777 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID2_TIMEOUT18.5s.png
+2026-01-29 20:45:44,784 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID3_TIMEOUT18.5s.png
+2026-01-29 20:45:44,784 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID3_TIMEOUT18.5s.png
+2026-01-29 20:45:44,789 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID4_TIMEOUT18.5s.png
+2026-01-29 20:45:44,789 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID4_TIMEOUT18.5s.png
+2026-01-29 20:45:44,798 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID5_TIMEOUT18.5s.png
+2026-01-29 20:45:44,798 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204544_ID5_TIMEOUT18.5s.png
+2026-01-29 20:45:45,054 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:45,054 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:45,318 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:45,318 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:45,585 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:45,585 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:45,850 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:45,850 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:46,160 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID2_TIMEOUT19.9s.png
+2026-01-29 20:45:46,160 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID2_TIMEOUT19.9s.png
+2026-01-29 20:45:46,167 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID3_TIMEOUT19.9s.png
+2026-01-29 20:45:46,167 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID3_TIMEOUT19.9s.png
+2026-01-29 20:45:46,175 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID4_TIMEOUT19.9s.png
+2026-01-29 20:45:46,175 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID4_TIMEOUT19.9s.png
+2026-01-29 20:45:46,181 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID5_TIMEOUT19.9s.png
+2026-01-29 20:45:46,181 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID5_TIMEOUT19.9s.png
+2026-01-29 20:45:46,495 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID2_TIMEOUT20.2s.png
+2026-01-29 20:45:46,495 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID2_TIMEOUT20.2s.png
+2026-01-29 20:45:46,502 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID3_TIMEOUT20.2s.png
+2026-01-29 20:45:46,502 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID3_TIMEOUT20.2s.png
+2026-01-29 20:45:46,509 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID4_TIMEOUT20.2s.png
+2026-01-29 20:45:46,509 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID4_TIMEOUT20.2s.png
+2026-01-29 20:45:46,516 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID5_TIMEOUT20.2s.png
+2026-01-29 20:45:46,516 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID5_TIMEOUT20.2s.png
+2026-01-29 20:45:46,828 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID2_TIMEOUT20.6s.png
+2026-01-29 20:45:46,828 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID2_TIMEOUT20.6s.png
+2026-01-29 20:45:46,834 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID3_TIMEOUT20.6s.png
+2026-01-29 20:45:46,834 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID3_TIMEOUT20.6s.png
+2026-01-29 20:45:46,842 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID4_TIMEOUT20.6s.png
+2026-01-29 20:45:46,842 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID4_TIMEOUT20.6s.png
+2026-01-29 20:45:46,849 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID5_TIMEOUT20.6s.png
+2026-01-29 20:45:46,849 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204546_ID5_TIMEOUT20.6s.png
+2026-01-29 20:45:47,136 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:47,136 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:47,407 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:47,407 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:47,716 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204547_ID2_TIMEOUT21.4s.png
+2026-01-29 20:45:47,716 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204547_ID2_TIMEOUT21.4s.png
+2026-01-29 20:45:47,724 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204547_ID3_TIMEOUT21.5s.png
+2026-01-29 20:45:47,724 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204547_ID3_TIMEOUT21.5s.png
+2026-01-29 20:45:47,731 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204547_ID4_TIMEOUT21.5s.png
+2026-01-29 20:45:47,731 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204547_ID4_TIMEOUT21.5s.png
+2026-01-29 20:45:47,737 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204547_ID5_TIMEOUT21.5s.png
+2026-01-29 20:45:47,737 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204547_ID5_TIMEOUT21.5s.png
+2026-01-29 20:45:47,998 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:47,998 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:48,267 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:48,267 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:48,576 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204548_ID2_TIMEOUT22.3s.png
+2026-01-29 20:45:48,576 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204548_ID2_TIMEOUT22.3s.png
+2026-01-29 20:45:48,584 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204548_ID3_TIMEOUT22.3s.png
+2026-01-29 20:45:48,584 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204548_ID3_TIMEOUT22.3s.png
+2026-01-29 20:45:48,591 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204548_ID4_TIMEOUT22.3s.png
+2026-01-29 20:45:48,591 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204548_ID4_TIMEOUT22.3s.png
+2026-01-29 20:45:48,598 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204548_ID5_TIMEOUT22.3s.png
+2026-01-29 20:45:48,598 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204548_ID5_TIMEOUT22.3s.png
+2026-01-29 20:45:48,859 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:48,859 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:49,170 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204549_ID2_TIMEOUT22.9s.png
+2026-01-29 20:45:49,170 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204549_ID2_TIMEOUT22.9s.png
+2026-01-29 20:45:49,177 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204549_ID3_TIMEOUT22.9s.png
+2026-01-29 20:45:49,177 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204549_ID3_TIMEOUT22.9s.png
+2026-01-29 20:45:49,184 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204549_ID4_TIMEOUT22.9s.png
+2026-01-29 20:45:49,184 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204549_ID4_TIMEOUT22.9s.png
+2026-01-29 20:45:49,191 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204549_ID5_TIMEOUT22.9s.png
+2026-01-29 20:45:49,191 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204549_ID5_TIMEOUT22.9s.png
+2026-01-29 20:45:49,452 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:49,452 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:49,704 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:49,704 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:49,971 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:49,971 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:50,235 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:50,235 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:50,545 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID2_TIMEOUT24.3s.png
+2026-01-29 20:45:50,545 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID2_TIMEOUT24.3s.png
+2026-01-29 20:45:50,552 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID3_TIMEOUT24.3s.png
+2026-01-29 20:45:50,552 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID3_TIMEOUT24.3s.png
+2026-01-29 20:45:50,559 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID4_TIMEOUT24.3s.png
+2026-01-29 20:45:50,559 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID4_TIMEOUT24.3s.png
+2026-01-29 20:45:50,566 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID5_TIMEOUT24.3s.png
+2026-01-29 20:45:50,566 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID5_TIMEOUT24.3s.png
+2026-01-29 20:45:50,873 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID2_TIMEOUT24.6s.png
+2026-01-29 20:45:50,873 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID2_TIMEOUT24.6s.png
+2026-01-29 20:45:50,880 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID3_TIMEOUT24.6s.png
+2026-01-29 20:45:50,880 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID3_TIMEOUT24.6s.png
+2026-01-29 20:45:50,887 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID4_TIMEOUT24.6s.png
+2026-01-29 20:45:50,887 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID4_TIMEOUT24.6s.png
+2026-01-29 20:45:50,894 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID5_TIMEOUT24.6s.png
+2026-01-29 20:45:50,894 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204550_ID5_TIMEOUT24.6s.png
+2026-01-29 20:45:51,195 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID2_TIMEOUT24.9s.png
+2026-01-29 20:45:51,195 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID2_TIMEOUT24.9s.png
+2026-01-29 20:45:51,202 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID3_TIMEOUT24.9s.png
+2026-01-29 20:45:51,202 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID3_TIMEOUT24.9s.png
+2026-01-29 20:45:51,209 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID4_TIMEOUT24.9s.png
+2026-01-29 20:45:51,209 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID4_TIMEOUT24.9s.png
+2026-01-29 20:45:51,216 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID5_TIMEOUT24.9s.png
+2026-01-29 20:45:51,216 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID5_TIMEOUT24.9s.png
+2026-01-29 20:45:51,473 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:51,473 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:51,777 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID2_TIMEOUT25.5s.png
+2026-01-29 20:45:51,777 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID2_TIMEOUT25.5s.png
+2026-01-29 20:45:51,784 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID3_TIMEOUT25.5s.png
+2026-01-29 20:45:51,784 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID3_TIMEOUT25.5s.png
+2026-01-29 20:45:51,792 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID4_TIMEOUT25.5s.png
+2026-01-29 20:45:51,792 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID4_TIMEOUT25.5s.png
+2026-01-29 20:45:51,799 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID5_TIMEOUT25.5s.png
+2026-01-29 20:45:51,799 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204551_ID5_TIMEOUT25.5s.png
+2026-01-29 20:45:52,064 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:52,064 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:52,407 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID2_TIMEOUT26.1s.png
+2026-01-29 20:45:52,407 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID2_TIMEOUT26.1s.png
+2026-01-29 20:45:52,414 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID3_TIMEOUT26.1s.png
+2026-01-29 20:45:52,414 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID3_TIMEOUT26.1s.png
+2026-01-29 20:45:52,422 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID4_TIMEOUT26.2s.png
+2026-01-29 20:45:52,422 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID4_TIMEOUT26.2s.png
+2026-01-29 20:45:52,429 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID5_TIMEOUT26.2s.png
+2026-01-29 20:45:52,429 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID5_TIMEOUT26.2s.png
+2026-01-29 20:45:52,684 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:52,684 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:52,994 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID2_TIMEOUT26.7s.png
+2026-01-29 20:45:52,994 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID2_TIMEOUT26.7s.png
+2026-01-29 20:45:53,001 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID3_TIMEOUT26.7s.png
+2026-01-29 20:45:53,001 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID3_TIMEOUT26.7s.png
+2026-01-29 20:45:53,008 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID4_TIMEOUT26.7s.png
+2026-01-29 20:45:53,008 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID4_TIMEOUT26.7s.png
+2026-01-29 20:45:53,015 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID5_TIMEOUT26.7s.png
+2026-01-29 20:45:53,015 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204552_ID5_TIMEOUT26.7s.png
+2026-01-29 20:45:53,287 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:53,287 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:53,545 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:53,545 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:53,856 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204553_ID2_TIMEOUT27.6s.png
+2026-01-29 20:45:53,856 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204553_ID2_TIMEOUT27.6s.png
+2026-01-29 20:45:53,863 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204553_ID3_TIMEOUT27.6s.png
+2026-01-29 20:45:53,863 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204553_ID3_TIMEOUT27.6s.png
+2026-01-29 20:45:53,871 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204553_ID4_TIMEOUT27.6s.png
+2026-01-29 20:45:53,871 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204553_ID4_TIMEOUT27.6s.png
+2026-01-29 20:45:53,878 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204553_ID5_TIMEOUT27.6s.png
+2026-01-29 20:45:53,878 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204553_ID5_TIMEOUT27.6s.png
+2026-01-29 20:45:54,179 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID2_TIMEOUT27.9s.png
+2026-01-29 20:45:54,179 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID2_TIMEOUT27.9s.png
+2026-01-29 20:45:54,186 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID3_TIMEOUT27.9s.png
+2026-01-29 20:45:54,186 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID3_TIMEOUT27.9s.png
+2026-01-29 20:45:54,193 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID4_TIMEOUT27.9s.png
+2026-01-29 20:45:54,193 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID4_TIMEOUT27.9s.png
+2026-01-29 20:45:54,200 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID5_TIMEOUT27.9s.png
+2026-01-29 20:45:54,200 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID5_TIMEOUT27.9s.png
+2026-01-29 20:45:54,505 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID2_TIMEOUT28.2s.png
+2026-01-29 20:45:54,505 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID2_TIMEOUT28.2s.png
+2026-01-29 20:45:54,514 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID3_TIMEOUT28.2s.png
+2026-01-29 20:45:54,514 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID3_TIMEOUT28.2s.png
+2026-01-29 20:45:54,521 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID4_TIMEOUT28.2s.png
+2026-01-29 20:45:54,521 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID4_TIMEOUT28.2s.png
+2026-01-29 20:45:54,527 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID5_TIMEOUT28.3s.png
+2026-01-29 20:45:54,527 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204554_ID5_TIMEOUT28.3s.png
+2026-01-29 20:45:54,798 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:54,798 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:55,066 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:55,066 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:55,388 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204555_ID2_TIMEOUT29.1s.png
+2026-01-29 20:45:55,388 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204555_ID2_TIMEOUT29.1s.png
+2026-01-29 20:45:55,394 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204555_ID3_TIMEOUT29.1s.png
+2026-01-29 20:45:55,394 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204555_ID3_TIMEOUT29.1s.png
+2026-01-29 20:45:55,401 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204555_ID4_TIMEOUT29.1s.png
+2026-01-29 20:45:55,401 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204555_ID4_TIMEOUT29.1s.png
+2026-01-29 20:45:55,409 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204555_ID5_TIMEOUT29.1s.png
+2026-01-29 20:45:55,409 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204555_ID5_TIMEOUT29.1s.png
+2026-01-29 20:45:55,673 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:55,673 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:55,929 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:55,929 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:56,190 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:56,190 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:56,444 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:56,444 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:56,703 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:56,703 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:56,951 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:56,951 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:57,203 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:57,203 - ERROR - detect_producer - CV处理错误: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "D:\C language_2\cv_project\three_week2\project_fixed\detect-service\detect_producer.py", line 407, in cv_pipeline_custom
+    id_text = f"ID:{track_id} ({score:.2f})"
+TypeError: unsupported format string passed to NoneType.__format__
+2026-01-29 20:45:57,508 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204557_ID2_TIMEOUT31.2s.png
+2026-01-29 20:45:57,508 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204557_ID2_TIMEOUT31.2s.png
+2026-01-29 20:45:57,516 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204557_ID3_TIMEOUT31.2s.png
+2026-01-29 20:45:57,516 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204557_ID3_TIMEOUT31.2s.png
+2026-01-29 20:45:57,522 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204557_ID4_TIMEOUT31.3s.png
+2026-01-29 20:45:57,522 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204557_ID4_TIMEOUT31.3s.png
+2026-01-29 20:45:57,529 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204557_ID5_TIMEOUT31.3s.png
+2026-01-29 20:45:57,529 - INFO - detect_producer - 📸 超时告警截图保存成功 | 路径：alert_screenshots\20260129_204557_ID5_TIMEOUT31.3s.png
+2026-01-29 20:45:57,571 - INFO - detect_producer - 🧹 正在清理资源...
+2026-01-29 20:45:57,571 - INFO - detect_producer - 🧹 正在清理资源...
+2026-01-29 20:45:57,581 - INFO - detect_producer - ✅ 标注视频写入器已关闭 | 视频文件已保存：output_detect.mp4
+2026-01-29 20:45:57,581 - INFO - detect_producer - ✅ 标注视频写入器已关闭 | 视频文件已保存：output_detect.mp4
+2026-01-29 20:45:57,581 - INFO - detect_producer - ✅ 资源清理完成 | 视频流+窗口+Kafka+Redis+计时数据+视频写入器 全部释放
+2026-01-29 20:45:57,581 - INFO - detect_producer - ✅ 资源清理完成 | 视频流+窗口+Kafka+Redis+计时数据+视频写入器 全部释放
