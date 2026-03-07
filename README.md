@@ -227,7 +227,7 @@ alert_areas = [
 
 - 作者：lll222qs
 - 邮箱：1757952556@qq.com
-- 项目地址：https://github.com/your-username/security-system
+- 项目地址：https://github.com/lll222qs/security-system
 
 ---
 
